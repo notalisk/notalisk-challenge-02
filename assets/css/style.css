@@ -1,0 +1,9 @@
+:root {
+    --light-color: #fafaef;
+    --medium-color: #9197ae;
+    --dark-color: #273043;
+}
+
+body {
+    background-color: var(--light-color);
+}
