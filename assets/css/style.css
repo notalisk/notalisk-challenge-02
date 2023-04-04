@@ -6,4 +6,92 @@
 
 body {
     background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+header {
+    background-color: var(--dark-color);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    width: 320px;
+    font-size: 50px;
+    text-align: right;
+    padding: 15px;
+    color: var(--light-color);
+}
+
+nav {
+    align-items: center;
+    height: 100%; 
+}
+
+nav li {
+    justify-content: center;
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.portfolio {
+    width: 768px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.portfolio h2 {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.card {
+    width: 48%;
+    margin-top: 30px;
+    position: relative;
+}
+
+.wide {
+    width: 100%;
+    margin-top: 0;
+}
+
+.card h3 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    display: none;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card:hover img {
+    opacity: 0.5;
+}
+.card:hover h3 {
+    display: initial;
+    opacity: 1;
 }
