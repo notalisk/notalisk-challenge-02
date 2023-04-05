@@ -162,7 +162,21 @@ footer {
 .card:hover img {
     opacity: 0.5;
 }
+
 .card:hover h3 {
     display: initial;
     opacity: 1;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    header {
+        height: 150px;
+    }
+    header h1 {
+        width: 768px;
+    }
+    nav {
+        float: none;
+    }
 }
