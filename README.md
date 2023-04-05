@@ -10,4 +10,6 @@ Hover over each image in the portfolio section to the see the projects' name.
 
 ## Screenshot
 
+![image](https://user-images.githubusercontent.com/81662512/229952142-3b418a8b-f49b-4396-b9d6-c3688d006d95.png)
+
 ## Links
